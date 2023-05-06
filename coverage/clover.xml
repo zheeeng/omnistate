@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1646123381975" clover="3.2.0">
+  <project timestamp="1646123381976" name="All files">
+    <metrics statements="20" coveredstatements="16" conditionals="7" coveredconditionals="3" methods="8" coveredmethods="6" elements="35" coveredelements="25" complexity="0" loc="20" ncloc="20" packages="2" files="3" classes="3"/>
+    <package name="context.src.utils">
+      <metrics statements="10" coveredstatements="10" conditionals="3" coveredconditionals="3" methods="5" coveredmethods="5"/>
+      <file name="capitalize.ts" path="/Users/zheeeng/Workspace/omnistate/packages/context/src/utils/capitalize.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="12" type="stmt"/>
+      </file>
+      <file name="dedent.ts" path="/Users/zheeeng/Workspace/omnistate/packages/context/src/utils/dedent.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="3" coveredconditionals="3" methods="4" coveredmethods="4"/>
+        <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="2" count="42" type="stmt"/>
+        <line num="3" count="42" type="stmt"/>
+        <line num="4" count="42" type="stmt"/>
+        <line num="5" count="135" type="stmt"/>
+        <line num="7" count="42" type="stmt"/>
+        <line num="8" count="42" type="stmt"/>
+        <line num="10" count="135" type="cond" truecount="2" falsecount="0"/>
+      </file>
+    </package>
+    <package name="reactive.src">
+      <metrics statements="10" coveredstatements="6" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="1"/>
+      <file name="derive.ts" path="/Users/zheeeng/Workspace/omnistate/packages/reactive/src/derive.ts">
+        <metrics statements="10" coveredstatements="6" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

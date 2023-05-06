@@ -1,0 +1,31 @@
+body {
+    @apply flex bg-light-400 justify-center;
+}
+
+.todo-body {
+    box-shadow: 0 25px 50px 0 rgb(0 0 0 / 10%);
+}
+
+.todo-footer {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 20%), 0 8px 0 -3px #f6f6f6, 0 9px 1px -3px rgb(0 0 0 / 20%), 0 16px 0 -6px #f6f6f6, 0 17px 2px -6px rgb(0 0 0 / 20%);
+}
+
+.input-placeholder-variant::placeholder {
+    @apply font-300 italic;
+}
+
+.todo-item .todo-closer {
+    @apply hidden;
+}
+
+.todo-item:hover .todo-closer {
+    @apply flex;
+}
+
+.todo-ctrl {
+    @apply flex flex-shrink-0 h-60px w-60px justify-center items-center;
+}
+
+.todo-content {
+    @apply flex flex-grow items-center;
+}

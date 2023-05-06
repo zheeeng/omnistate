@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Canvas</title>
+    <script type="module" crossorigin src="/assets/index.3f477238.js"></script>
+    <link rel="modulepreload" href="/assets/vendor.fcf28522.js">
+    <link rel="stylesheet" href="/assets/index.fe8512e1.css">
+  </head>
+  <body>
+    <div class="board">
+      <canvas id="canvas"></canvas>
+    </div>
+    <div class="board">
+      <div id="vanilla" class="card">
+        <h1 class="title">Vanilla JS</h1>
+        <p id="text1" class="text"></p>
+        <p id="text2" class="text"></p>
+        <button id="btn" class="btn">Draw by Vanilla</button>
+        <p class="tip">Button manipulates the instance of CanvasKit, and then re-render the DOM through Vanilla JS</p>
+      </div>
+
+      <div id="react" class="card"></div>
+
+      <div id="bound" class="card">
+        <h1 class="title">Bound</h1>
+        <p id="text1" class="text"></p>
+        <p id="text2" class="text"></p>
+        <button id="btn" class="btn">Draw by Vanilla</button>
+        <div id="react-btn-slot"></div>
+        <p class="tip">Button manipulates the Omnistate's external store, and then re-render the DOM through Vanilla JS and drive the context changing to Omnistate</p>
+      </div>
+    </div>
+    
+  </body>
+</html>
